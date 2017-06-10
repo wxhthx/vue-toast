@@ -4,8 +4,8 @@
 ---
 
 ## Intro
-> vue-awesome-toast is a vue plugin which based on vue.js and css3.With a easy approach to config, and lots of theme to be choosed to be imported in your project which based on Vue.js（Vue 2）.
-It's interested that support multiple toasts diplaying on the same time, no one overspread each other.
+> vue-awesome-toast is a vue plugin which based on vue.js and css3. It has a easy approach to config and lots of theme to be choosed .Then just import it into your project which based on Vue.js（Vue 2）.
+It's interesting that supporting multipled toasts diplayed on the same time, neither overspreads each other.
 
 ## Live Demo
 [Click me](https://wxhthx.github.io/v-easy-swiper/ "swiper") 
@@ -68,8 +68,8 @@ export default {
     this.$toast(options)
 ```
 3. You must notice
-> if the same property both exited in global and install config, the last one config will work, which means the instance config will overwriten the same property which exited in global config.
-    So you can put the project common config in global, put detail config object which need to be custommade to instance config.
+> if the same property both exited in global and instance config, the last one config will work, which means that instance config will overwrite the same property which exited in global config.
+    So you can make the common toast config of project globally , and put detail config object which needs to be custommade in instance component.
 4. detail APIs:
 * __position__ [(left || right && top ) || (middle || bottom)] (default: 'right top')
 * __duration__ number (default: 2500)
@@ -86,7 +86,8 @@ const cssConfig = {
 Vue.use(toast, {globalPosition: cssConfig})
 ```
 
-2. Somewhile you just make one of toasts looks like better brilliant than others, you can use __instancePosition__ property to do it,just like above says, it not just  only can change position, but also bgColor、color ...etc
+2. Somewhile you just make one of toasts which looks like better brilliant than others, you can use __instancePosition__ property to do it, as has been said above, it can not only change position, but also bgColor、color ...etc
+
 ```javascript
 const cssConfig = {
     backgroundColor: 'red',
