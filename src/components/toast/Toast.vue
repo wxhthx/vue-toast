@@ -90,7 +90,7 @@ $faded: #f7f7f7 !default;
         color: $green;
     }
     &.warning {
-        background: $yellow;
+        background: $pink;
     }
     &.danger {
         background: $red;
