@@ -8,7 +8,7 @@
 It's interesting that supporting multipled toasts diplayed on the same time, neither overspreads each other.
 
 ## Live Demo
-[Click me](https://wxhthx.github.io/v-easy-swiper/ "swiper") 
+[Click me](https://wxhthx.github.io/vue-toast/ "vue-awesome-toast") 
 
 ## Usage
 ```bash

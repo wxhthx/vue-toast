@@ -11,7 +11,7 @@ toastPlugin.install = function (Vue, options) {
     }
 
     ToastController.prototype.close = function () {
-        // this.visible = false
+        this.visible = false
         this.$el.addEventListener('transitionend', removeDom)
     }
 
