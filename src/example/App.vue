@@ -14,6 +14,7 @@ export default {
   },
   created () {
     this.$toast('welcome')
+    this.$toast('to meet you')
   }
 }
 </script>

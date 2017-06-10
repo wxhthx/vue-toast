@@ -29,6 +29,7 @@ module.exports = {
     'quotes': 0,
     'eqeqeq': 0,
     'no-trailing-spaces': 0,
-    'camelcase': 0
+    'camelcase': 0,
+    'no-new': 0
   }
 }
