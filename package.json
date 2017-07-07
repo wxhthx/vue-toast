@@ -1,6 +1,6 @@
 {
   "name": "vue-awesome-toast",
-  "version": "2.0.2-beta",
+  "version": "2.0.2-beta0",
   "description": "It's a Vue plugin of toast,support for gloabal & instance custommade,including postion & theme etc... ",
   "main": "./dist/v-toast.min.js",
   "scripts": {
